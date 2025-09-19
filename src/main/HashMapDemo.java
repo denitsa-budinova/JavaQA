@@ -46,8 +46,8 @@ public class HashMapDemo {
             foodMap.replace(4,"Bread", "Watermelon");
             System.out.println("Food on key 4: " + foodMap.get(4));
 
-            System.out.println("Check if foodmap have key 3: " + foodMap.containsKey(3));
-            System.out.println("Check if foodmap have value banana: " + foodMap.containsValue("banana"));
+            System.out.println("Check if the foodmap has key 3: " + foodMap.containsKey(3));
+            System.out.println("Check if the foodmap has the value banana: " + foodMap.containsValue("banana"));
 
             System.out.println(foodMap.values());
             foodMap.putIfAbsent(7,"Lemon");
