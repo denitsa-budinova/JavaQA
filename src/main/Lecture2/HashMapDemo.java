@@ -1,4 +1,4 @@
-package main;
+package main.Lecture2;
 
 import java.util.HashMap;
 
